@@ -1,7 +1,5 @@
 from dataclasses import dataclass
 from environs import Env
-from typing import Any
-from google.oauth2.service_account import Credentials
 
 
 @dataclass
