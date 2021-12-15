@@ -1,13 +1,8 @@
 import asyncio
 import logging
-import gspread_asyncio
 
-from aiogram import Bot, Dispatcher
+from aiogram import Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from aiogram.contrib.fsm_storage.redis import RedisStorage2
-from aiogram.dispatcher.webhook import configure_app
-from aiogram.types import ParseMode, BotCommand, BotCommandScopeChat
-from aiogram.utils.exceptions import ChatNotFound
 from aiohttp import web
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
